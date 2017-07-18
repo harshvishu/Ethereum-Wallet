@@ -7,13 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2053C792B3CE70A8D815694F /* Pods_Ethereum_WalletTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C657EE4D9F361EAB989CB51C /* Pods_Ethereum_WalletTests.framework */; };
+		41041CD91F1CB2370003E6FB /* WalletTransactionsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41041CD81F1CB2370003E6FB /* WalletTransactionsHeaderView.swift */; };
+		41041CDB1F1CB4940003E6FB /* WalletTransactionsHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41041CDA1F1CB4940003E6FB /* WalletTransactionsHeaderView.xib */; };
+		41041CDE1F1CB9CC0003E6FB /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41041CDC1F1CB9CC0003E6FB /* TransactionTableViewCell.swift */; };
+		41041CDF1F1CB9CC0003E6FB /* TransactionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41041CDD1F1CB9CC0003E6FB /* TransactionTableViewCell.xib */; };
+		41041CE11F1CBD5B0003E6FB /* WalletResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41041CE01F1CBD5B0003E6FB /* WalletResponse.swift */; };
+		41041CE31F1CE0ED0003E6FB /* RecentTransactionsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41041CE21F1CE0ED0003E6FB /* RecentTransactionsResponse.swift */; };
+		41041CE51F1CE3A70003E6FB /* Wallet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41041CE41F1CE3A70003E6FB /* Wallet.storyboard */; };
+		41041CE71F1CE4100003E6FB /* CreateWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41041CE61F1CE4100003E6FB /* CreateWalletViewController.swift */; };
+		41041CE91F1CEB9E0003E6FB /* CreateWalletResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41041CE81F1CEB9E0003E6FB /* CreateWalletResponse.swift */; };
+		41041CEF1F1D13F30003E6FB /* TransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41041CEE1F1D13F30003E6FB /* TransactionViewModel.swift */; };
+		41041CF21F1D1DA90003E6FB /* SendEtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41041CF11F1D1DA90003E6FB /* SendEtherViewController.swift */; };
+		41041CF41F1D1DB60003E6FB /* ReceiveEtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41041CF31F1D1DB60003E6FB /* ReceiveEtherViewController.swift */; };
+		41041CF61F1D1EA80003E6FB /* TransactionHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41041CF51F1D1EA80003E6FB /* TransactionHeaderViewModel.swift */; };
+		41041CF91F1D310A0003E6FB /* FundsTransferResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41041CF81F1D310A0003E6FB /* FundsTransferResponse.swift */; };
+		4147F9031F1DCBBE00243449 /* ActivityProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4147F9021F1DCBBE00243449 /* ActivityProgressView.xib */; };
+		4147F9051F1DCBDE00243449 /* ActivityProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4147F9041F1DCBDE00243449 /* ActivityProgressView.swift */; };
+		4147F9071F1DD6E400243449 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4147F9061F1DD6E400243449 /* Account.swift */; };
+		4147F90A1F1DE15F00243449 /* pattern_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4147F9091F1DE15F00243449 /* pattern_1.png */; };
+		41599EF21F1B9B3400F5BFAA /* UserRegisterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41599EF11F1B9B3400F5BFAA /* UserRegisterResponse.swift */; };
+		41599EF51F1BAB9600F5BFAA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41599EF41F1BAB9600F5BFAA /* MainViewController.swift */; };
+		41599EF71F1BAF5700F5BFAA /* UserLoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41599EF61F1BAF5700F5BFAA /* UserLoginResponse.swift */; };
 		41B68ED81F1B3B8800ACE838 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B68ED71F1B3B8800ACE838 /* AppDelegate.swift */; };
-		41B68EDA1F1B3B8800ACE838 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B68ED91F1B3B8800ACE838 /* ViewController.swift */; };
 		41B68EDD1F1B3B8800ACE838 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41B68EDB1F1B3B8800ACE838 /* Main.storyboard */; };
 		41B68EDF1F1B3B8800ACE838 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41B68EDE1F1B3B8800ACE838 /* Assets.xcassets */; };
 		41B68EE21F1B3B8800ACE838 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41B68EE01F1B3B8800ACE838 /* LaunchScreen.storyboard */; };
 		41B68EED1F1B3B8800ACE838 /* Ethereum_WalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B68EEC1F1B3B8800ACE838 /* Ethereum_WalletTests.swift */; };
 		41B68EF81F1B3B8800ACE838 /* Ethereum_WalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B68EF71F1B3B8800ACE838 /* Ethereum_WalletUITests.swift */; };
+		41B68F081F1B44BF00ACE838 /* LoginRegister.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41B68F071F1B44BF00ACE838 /* LoginRegister.storyboard */; };
+		41B68F0B1F1B48F700ACE838 /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B68F0A1F1B48F700ACE838 /* UIExtensions.swift */; };
+		41B68F0E1F1B4AC500ACE838 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B68F0D1F1B4AC500ACE838 /* RegisterViewController.swift */; };
+		41B68F101F1B4AFE00ACE838 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B68F0F1F1B4AFE00ACE838 /* Constants.swift */; };
+		41B68F151F1B4C1F00ACE838 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B68F141F1B4C1F00ACE838 /* Api.swift */; };
+		41B68F171F1B4E0C00ACE838 /* NetworkExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B68F161F1B4E0C00ACE838 /* NetworkExtensions.swift */; };
+		41B68F191F1B4F5C00ACE838 /* KeychainPasswordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B68F181F1B4F5C00ACE838 /* KeychainPasswordItem.swift */; };
+		41B68F1B1F1B51CC00ACE838 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B68F1A1F1B51CC00ACE838 /* UserData.swift */; };
+		41B68F1D1F1B75F500ACE838 /* FoundationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B68F1C1F1B75F500ACE838 /* FoundationExtensions.swift */; };
+		54DB816476B71B976915B3DA /* Pods_Ethereum_Wallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E24F386838E28CBDF17504 /* Pods_Ethereum_Wallet.framework */; };
+		7D170508C5F312E855B05530 /* Pods_Ethereum_WalletUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0EB3EE62328C7AFC9CD48B /* Pods_Ethereum_WalletUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +66,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07C78271537049D9907C3ADA /* Pods-Ethereum WalletTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ethereum WalletTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ethereum WalletTests/Pods-Ethereum WalletTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C0EB3EE62328C7AFC9CD48B /* Pods_Ethereum_WalletUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ethereum_WalletUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		217E5FD8340C02F95D3BA569 /* Pods-Ethereum WalletUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ethereum WalletUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ethereum WalletUITests/Pods-Ethereum WalletUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		41041CD81F1CB2370003E6FB /* WalletTransactionsHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletTransactionsHeaderView.swift; sourceTree = "<group>"; };
+		41041CDA1F1CB4940003E6FB /* WalletTransactionsHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WalletTransactionsHeaderView.xib; sourceTree = "<group>"; };
+		41041CDC1F1CB9CC0003E6FB /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		41041CDD1F1CB9CC0003E6FB /* TransactionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionTableViewCell.xib; sourceTree = "<group>"; };
+		41041CE01F1CBD5B0003E6FB /* WalletResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletResponse.swift; sourceTree = "<group>"; };
+		41041CE21F1CE0ED0003E6FB /* RecentTransactionsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentTransactionsResponse.swift; sourceTree = "<group>"; };
+		41041CE41F1CE3A70003E6FB /* Wallet.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Wallet.storyboard; sourceTree = "<group>"; };
+		41041CE61F1CE4100003E6FB /* CreateWalletViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateWalletViewController.swift; sourceTree = "<group>"; };
+		41041CE81F1CEB9E0003E6FB /* CreateWalletResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateWalletResponse.swift; sourceTree = "<group>"; };
+		41041CEE1F1D13F30003E6FB /* TransactionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionViewModel.swift; sourceTree = "<group>"; };
+		41041CF11F1D1DA90003E6FB /* SendEtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendEtherViewController.swift; sourceTree = "<group>"; };
+		41041CF31F1D1DB60003E6FB /* ReceiveEtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiveEtherViewController.swift; sourceTree = "<group>"; };
+		41041CF51F1D1EA80003E6FB /* TransactionHeaderViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionHeaderViewModel.swift; sourceTree = "<group>"; };
+		41041CF81F1D310A0003E6FB /* FundsTransferResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FundsTransferResponse.swift; sourceTree = "<group>"; };
+		4147F9021F1DCBBE00243449 /* ActivityProgressView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityProgressView.xib; sourceTree = "<group>"; };
+		4147F9041F1DCBDE00243449 /* ActivityProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityProgressView.swift; sourceTree = "<group>"; };
+		4147F9061F1DD6E400243449 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		4147F9091F1DE15F00243449 /* pattern_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pattern_1.png; sourceTree = "<group>"; };
+		41599EF11F1B9B3400F5BFAA /* UserRegisterResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRegisterResponse.swift; sourceTree = "<group>"; };
+		41599EF41F1BAB9600F5BFAA /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		41599EF61F1BAF5700F5BFAA /* UserLoginResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLoginResponse.swift; sourceTree = "<group>"; };
 		41B68ED41F1B3B8800ACE838 /* Ethereum Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ethereum Wallet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B68ED71F1B3B8800ACE838 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41B68ED91F1B3B8800ACE838 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		41B68EDC1F1B3B8800ACE838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41B68EDE1F1B3B8800ACE838 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41B68EE11F1B3B8800ACE838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +102,21 @@
 		41B68EF31F1B3B8800ACE838 /* Ethereum WalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ethereum WalletUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B68EF71F1B3B8800ACE838 /* Ethereum_WalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ethereum_WalletUITests.swift; sourceTree = "<group>"; };
 		41B68EF91F1B3B8800ACE838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41B68F071F1B44BF00ACE838 /* LoginRegister.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginRegister.storyboard; sourceTree = "<group>"; };
+		41B68F0A1F1B48F700ACE838 /* UIExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		41B68F0D1F1B4AC500ACE838 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		41B68F0F1F1B4AFE00ACE838 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		41B68F141F1B4C1F00ACE838 /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		41B68F161F1B4E0C00ACE838 /* NetworkExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkExtensions.swift; sourceTree = "<group>"; };
+		41B68F181F1B4F5C00ACE838 /* KeychainPasswordItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainPasswordItem.swift; sourceTree = "<group>"; };
+		41B68F1A1F1B51CC00ACE838 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		41B68F1C1F1B75F500ACE838 /* FoundationExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundationExtensions.swift; sourceTree = "<group>"; };
+		68E24F386838E28CBDF17504 /* Pods_Ethereum_Wallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ethereum_Wallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77FB301894B2B909D56DF347 /* Pods-Ethereum Wallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ethereum Wallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ethereum Wallet/Pods-Ethereum Wallet.release.xcconfig"; sourceTree = "<group>"; };
+		85A0B4728C41B82D969D613F /* Pods-Ethereum Wallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ethereum Wallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ethereum Wallet/Pods-Ethereum Wallet.debug.xcconfig"; sourceTree = "<group>"; };
+		C657EE4D9F361EAB989CB51C /* Pods_Ethereum_WalletTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ethereum_WalletTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D19EE6D3177BCF7BC740668F /* Pods-Ethereum WalletTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ethereum WalletTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ethereum WalletTests/Pods-Ethereum WalletTests.release.xcconfig"; sourceTree = "<group>"; };
+		D1A5E7CBEE10B2AF5735EB53 /* Pods-Ethereum WalletUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ethereum WalletUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ethereum WalletUITests/Pods-Ethereum WalletUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54DB816476B71B976915B3DA /* Pods_Ethereum_Wallet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2053C792B3CE70A8D815694F /* Pods_Ethereum_WalletTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +140,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D170508C5F312E855B05530 /* Pods_Ethereum_WalletUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41041CEA1F1D131D0003E6FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41B68F0D1F1B4AC500ACE838 /* RegisterViewController.swift */,
+				41599EF41F1BAB9600F5BFAA /* MainViewController.swift */,
+				41041CE61F1CE4100003E6FB /* CreateWalletViewController.swift */,
+				41041CF11F1D1DA90003E6FB /* SendEtherViewController.swift */,
+				41041CF31F1D1DB60003E6FB /* ReceiveEtherViewController.swift */,
+				41041CD81F1CB2370003E6FB /* WalletTransactionsHeaderView.swift */,
+				41041CDC1F1CB9CC0003E6FB /* TransactionTableViewCell.swift */,
+				4147F9041F1DCBDE00243449 /* ActivityProgressView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		41041CF71F1D27300003E6FB /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				41041CEE1F1D13F30003E6FB /* TransactionViewModel.swift */,
+				41041CF51F1D1EA80003E6FB /* TransactionHeaderViewModel.swift */,
+			);
+			name = "View Model";
+			sourceTree = "<group>";
+		};
+		4147F9081F1DE14E00243449 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4147F9091F1DE15F00243449 /* pattern_1.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		41B68ECB1F1B3B8800ACE838 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +186,8 @@
 				41B68EEB1F1B3B8800ACE838 /* Ethereum WalletTests */,
 				41B68EF61F1B3B8800ACE838 /* Ethereum WalletUITests */,
 				41B68ED51F1B3B8800ACE838 /* Products */,
+				A68CE5046D15C3E2DA06A2E2 /* Pods */,
+				CA9050112108186785BE8450 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +204,16 @@
 		41B68ED61F1B3B8800ACE838 /* Ethereum Wallet */ = {
 			isa = PBXGroup;
 			children = (
+				4147F9081F1DE14E00243449 /* Supporting Files */,
+				41041CF71F1D27300003E6FB /* View Model */,
+				41041CEA1F1D131D0003E6FB /* View */,
+				41B68F1E1F1B7E8000ACE838 /* Model */,
+				41B68F131F1B4C1600ACE838 /* Network */,
+				41B68F091F1B47CF00ACE838 /* Extras */,
+				41B68F061F1B3C6600ACE838 /* Xibs */,
+				41B68F051F1B3C5800ACE838 /* Storyboards */,
 				41B68ED71F1B3B8800ACE838 /* AppDelegate.swift */,
-				41B68ED91F1B3B8800ACE838 /* ViewController.swift */,
-				41B68EDB1F1B3B8800ACE838 /* Main.storyboard */,
 				41B68EDE1F1B3B8800ACE838 /* Assets.xcassets */,
-				41B68EE01F1B3B8800ACE838 /* LaunchScreen.storyboard */,
 				41B68EE31F1B3B8800ACE838 /* Info.plist */,
 			);
 			path = "Ethereum Wallet";
@@ -125,6 +237,85 @@
 			path = "Ethereum WalletUITests";
 			sourceTree = "<group>";
 		};
+		41B68F051F1B3C5800ACE838 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				41B68EDB1F1B3B8800ACE838 /* Main.storyboard */,
+				41B68EE01F1B3B8800ACE838 /* LaunchScreen.storyboard */,
+				41B68F071F1B44BF00ACE838 /* LoginRegister.storyboard */,
+				41041CE41F1CE3A70003E6FB /* Wallet.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		41B68F061F1B3C6600ACE838 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				41041CDA1F1CB4940003E6FB /* WalletTransactionsHeaderView.xib */,
+				41041CDD1F1CB9CC0003E6FB /* TransactionTableViewCell.xib */,
+				4147F9021F1DCBBE00243449 /* ActivityProgressView.xib */,
+			);
+			name = Xibs;
+			sourceTree = "<group>";
+		};
+		41B68F091F1B47CF00ACE838 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				41B68F0A1F1B48F700ACE838 /* UIExtensions.swift */,
+				41B68F0F1F1B4AFE00ACE838 /* Constants.swift */,
+				41B68F181F1B4F5C00ACE838 /* KeychainPasswordItem.swift */,
+				41B68F1C1F1B75F500ACE838 /* FoundationExtensions.swift */,
+			);
+			name = Extras;
+			sourceTree = "<group>";
+		};
+		41B68F131F1B4C1600ACE838 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				41B68F141F1B4C1F00ACE838 /* Api.swift */,
+				41B68F161F1B4E0C00ACE838 /* NetworkExtensions.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		41B68F1E1F1B7E8000ACE838 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4147F9061F1DD6E400243449 /* Account.swift */,
+				41599EF11F1B9B3400F5BFAA /* UserRegisterResponse.swift */,
+				41599EF61F1BAF5700F5BFAA /* UserLoginResponse.swift */,
+				41041CE01F1CBD5B0003E6FB /* WalletResponse.swift */,
+				41041CE21F1CE0ED0003E6FB /* RecentTransactionsResponse.swift */,
+				41041CE81F1CEB9E0003E6FB /* CreateWalletResponse.swift */,
+				41B68F1A1F1B51CC00ACE838 /* UserData.swift */,
+				41041CF81F1D310A0003E6FB /* FundsTransferResponse.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A68CE5046D15C3E2DA06A2E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85A0B4728C41B82D969D613F /* Pods-Ethereum Wallet.debug.xcconfig */,
+				77FB301894B2B909D56DF347 /* Pods-Ethereum Wallet.release.xcconfig */,
+				07C78271537049D9907C3ADA /* Pods-Ethereum WalletTests.debug.xcconfig */,
+				D19EE6D3177BCF7BC740668F /* Pods-Ethereum WalletTests.release.xcconfig */,
+				217E5FD8340C02F95D3BA569 /* Pods-Ethereum WalletUITests.debug.xcconfig */,
+				D1A5E7CBEE10B2AF5735EB53 /* Pods-Ethereum WalletUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA9050112108186785BE8450 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68E24F386838E28CBDF17504 /* Pods_Ethereum_Wallet.framework */,
+				C657EE4D9F361EAB989CB51C /* Pods_Ethereum_WalletTests.framework */,
+				1C0EB3EE62328C7AFC9CD48B /* Pods_Ethereum_WalletUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +323,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41B68EFC1F1B3B8800ACE838 /* Build configuration list for PBXNativeTarget "Ethereum Wallet" */;
 			buildPhases = (
+				2F7B74A31F4533F8404466CA /* [CP] Check Pods Manifest.lock */,
 				41B68ED01F1B3B8800ACE838 /* Sources */,
 				41B68ED11F1B3B8800ACE838 /* Frameworks */,
 				41B68ED21F1B3B8800ACE838 /* Resources */,
+				31199A04F46F965C6B01D807 /* [CP] Embed Pods Frameworks */,
+				0F59B294449CA405CA3D1E96 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +343,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41B68EFF1F1B3B8800ACE838 /* Build configuration list for PBXNativeTarget "Ethereum WalletTests" */;
 			buildPhases = (
+				8607B3121DF755C3127F338F /* [CP] Check Pods Manifest.lock */,
 				41B68EE41F1B3B8800ACE838 /* Sources */,
 				41B68EE51F1B3B8800ACE838 /* Frameworks */,
 				41B68EE61F1B3B8800ACE838 /* Resources */,
+				33DF716A1029D4B4FBE28FCE /* [CP] Embed Pods Frameworks */,
+				960751BE11EDE31058267EC1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +364,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41B68F021F1B3B8800ACE838 /* Build configuration list for PBXNativeTarget "Ethereum WalletUITests" */;
 			buildPhases = (
+				94E82EC4A5097A9E25B49712 /* [CP] Check Pods Manifest.lock */,
 				41B68EEF1F1B3B8800ACE838 /* Sources */,
 				41B68EF01F1B3B8800ACE838 /* Frameworks */,
 				41B68EF11F1B3B8800ACE838 /* Resources */,
+				2F2CFD0A75F0C1B8144D97BE /* [CP] Embed Pods Frameworks */,
+				FC1FC5D21DA1BF0F6DB0A168 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,7 +436,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				41B68EE21F1B3B8800ACE838 /* LaunchScreen.storyboard in Resources */,
+				4147F90A1F1DE15F00243449 /* pattern_1.png in Resources */,
+				41041CE51F1CE3A70003E6FB /* Wallet.storyboard in Resources */,
+				41041CDB1F1CB4940003E6FB /* WalletTransactionsHeaderView.xib in Resources */,
+				41B68F081F1B44BF00ACE838 /* LoginRegister.storyboard in Resources */,
 				41B68EDF1F1B3B8800ACE838 /* Assets.xcassets in Resources */,
+				41041CDF1F1CB9CC0003E6FB /* TransactionTableViewCell.xib in Resources */,
+				4147F9031F1DCBBE00243449 /* ActivityProgressView.xib in Resources */,
 				41B68EDD1F1B3B8800ACE838 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,13 +463,174 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F59B294449CA405CA3D1E96 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ethereum Wallet/Pods-Ethereum Wallet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F2CFD0A75F0C1B8144D97BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ethereum WalletUITests/Pods-Ethereum WalletUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F7B74A31F4533F8404466CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		31199A04F46F965C6B01D807 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ethereum Wallet/Pods-Ethereum Wallet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33DF716A1029D4B4FBE28FCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ethereum WalletTests/Pods-Ethereum WalletTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8607B3121DF755C3127F338F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		94E82EC4A5097A9E25B49712 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		960751BE11EDE31058267EC1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ethereum WalletTests/Pods-Ethereum WalletTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC1FC5D21DA1BF0F6DB0A168 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ethereum WalletUITests/Pods-Ethereum WalletUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		41B68ED01F1B3B8800ACE838 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41B68EDA1F1B3B8800ACE838 /* ViewController.swift in Sources */,
+				41041CF61F1D1EA80003E6FB /* TransactionHeaderViewModel.swift in Sources */,
+				41B68F171F1B4E0C00ACE838 /* NetworkExtensions.swift in Sources */,
+				41599EF71F1BAF5700F5BFAA /* UserLoginResponse.swift in Sources */,
+				41599EF51F1BAB9600F5BFAA /* MainViewController.swift in Sources */,
+				41B68F0E1F1B4AC500ACE838 /* RegisterViewController.swift in Sources */,
+				41B68F1B1F1B51CC00ACE838 /* UserData.swift in Sources */,
+				41041CF21F1D1DA90003E6FB /* SendEtherViewController.swift in Sources */,
+				41599EF21F1B9B3400F5BFAA /* UserRegisterResponse.swift in Sources */,
+				41041CE11F1CBD5B0003E6FB /* WalletResponse.swift in Sources */,
+				41B68F1D1F1B75F500ACE838 /* FoundationExtensions.swift in Sources */,
+				4147F9051F1DCBDE00243449 /* ActivityProgressView.swift in Sources */,
+				41041CE31F1CE0ED0003E6FB /* RecentTransactionsResponse.swift in Sources */,
+				41041CF41F1D1DB60003E6FB /* ReceiveEtherViewController.swift in Sources */,
+				41041CE91F1CEB9E0003E6FB /* CreateWalletResponse.swift in Sources */,
 				41B68ED81F1B3B8800ACE838 /* AppDelegate.swift in Sources */,
+				41041CF91F1D310A0003E6FB /* FundsTransferResponse.swift in Sources */,
+				41041CE71F1CE4100003E6FB /* CreateWalletViewController.swift in Sources */,
+				41041CDE1F1CB9CC0003E6FB /* TransactionTableViewCell.swift in Sources */,
+				41B68F191F1B4F5C00ACE838 /* KeychainPasswordItem.swift in Sources */,
+				41041CD91F1CB2370003E6FB /* WalletTransactionsHeaderView.swift in Sources */,
+				4147F9071F1DD6E400243449 /* Account.swift in Sources */,
+				41041CEF1F1D13F30003E6FB /* TransactionViewModel.swift in Sources */,
+				41B68F0B1F1B48F700ACE838 /* UIExtensions.swift in Sources */,
+				41B68F151F1B4C1F00ACE838 /* Api.swift in Sources */,
+				41B68F101F1B4AFE00ACE838 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +726,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -404,7 +771,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -415,6 +782,7 @@
 		};
 		41B68EFD1F1B3B8800ACE838 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85A0B4728C41B82D969D613F /* Pods-Ethereum Wallet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BT7U6D8YAQ;
@@ -428,6 +796,7 @@
 		};
 		41B68EFE1F1B3B8800ACE838 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77FB301894B2B909D56DF347 /* Pods-Ethereum Wallet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BT7U6D8YAQ;
@@ -441,6 +810,7 @@
 		};
 		41B68F001F1B3B8800ACE838 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07C78271537049D9907C3ADA /* Pods-Ethereum WalletTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +826,7 @@
 		};
 		41B68F011F1B3B8800ACE838 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D19EE6D3177BCF7BC740668F /* Pods-Ethereum WalletTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +842,7 @@
 		};
 		41B68F031F1B3B8800ACE838 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 217E5FD8340C02F95D3BA569 /* Pods-Ethereum WalletUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = BT7U6D8YAQ;
@@ -485,6 +857,7 @@
 		};
 		41B68F041F1B3B8800ACE838 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1A5E7CBEE10B2AF5735EB53 /* Pods-Ethereum WalletUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = BT7U6D8YAQ;
@@ -516,6 +889,7 @@
 				41B68EFE1F1B3B8800ACE838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41B68EFF1F1B3B8800ACE838 /* Build configuration list for PBXNativeTarget "Ethereum WalletTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +898,7 @@
 				41B68F011F1B3B8800ACE838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41B68F021F1B3B8800ACE838 /* Build configuration list for PBXNativeTarget "Ethereum WalletUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +907,7 @@
 				41B68F041F1B3B8800ACE838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

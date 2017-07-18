@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WalletTransactionsHeaderView" customModule="Ethereum_Wallet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="74"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="HEb-S6-5Tt">
+                    <rect key="frame" x="10" y="10" width="355" height="54"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZZS-Ga-Vsp" userLabel="send">
+                            <rect key="frame" x="0.0" y="2" width="177.5" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="49v-Fj-lpB"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                            <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Send" image="send"/>
+                            <connections>
+                                <action selector="actionSend:" destination="iN0-l3-epB" eventType="touchUpInside" id="6Of-Zf-sWh"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iY8-7i-f5x" userLabel="receive">
+                            <rect key="frame" x="177.5" y="2" width="177.5" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="wbc-Xn-b4b"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                            <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Receive" image="receive"/>
+                            <connections>
+                                <action selector="actionReceive:" destination="iN0-l3-epB" eventType="touchUpInside" id="yNJ-vo-tkg"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="HEb-S6-5Tt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="1gQ-6H-yZ7"/>
+                <constraint firstAttribute="trailing" secondItem="HEb-S6-5Tt" secondAttribute="trailing" constant="10" id="ILo-2J-qFH"/>
+                <constraint firstItem="HEb-S6-5Tt" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="gsb-Pa-oap"/>
+                <constraint firstAttribute="bottom" secondItem="HEb-S6-5Tt" secondAttribute="bottom" constant="10" id="prs-Nc-rLc"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="50.5" y="321"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="receive" width="32" height="32"/>
+        <image name="send" width="32" height="32"/>
+    </resources>
+</document>

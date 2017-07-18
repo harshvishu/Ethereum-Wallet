@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="72" id="KGk-i7-Jjw" customClass="TransactionTableViewCell" customModule="Ethereum_Wallet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="72"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="71.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="dCc-a9-Nmd">
+                        <rect key="frame" x="20" y="10" width="254" height="51.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="July, 2013" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8uO-jT-HPB">
+                                <rect key="frame" x="0.0" y="0.0" width="55" height="13.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="11"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 50.234" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XUF-8u-NTj">
+                                <rect key="frame" x="0.0" y="13.5" width="73.5" height="38"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="send" translatesAutoresizingMaskIntoConstraints="NO" id="sZy-g7-Iic" userLabel="Image">
+                        <rect key="frame" x="284" y="28" width="16" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="16" id="Q9L-YT-eto"/>
+                            <constraint firstAttribute="height" constant="16" id="ypb-UH-ORd"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="dCc-a9-Nmd" secondAttribute="bottom" constant="10" id="07X-dP-RcO"/>
+                    <constraint firstItem="sZy-g7-Iic" firstAttribute="leading" secondItem="dCc-a9-Nmd" secondAttribute="trailing" constant="10" id="Ctd-M1-7ac"/>
+                    <constraint firstItem="dCc-a9-Nmd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="cn5-0d-xMz"/>
+                    <constraint firstItem="sZy-g7-Iic" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="evD-mb-R6C"/>
+                    <constraint firstAttribute="trailing" secondItem="sZy-g7-Iic" secondAttribute="trailing" constant="20" id="hX3-EV-uio"/>
+                    <constraint firstItem="dCc-a9-Nmd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="o6Y-ZQ-O2V"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imageViewType" destination="sZy-g7-Iic" id="4oe-eM-9pu"/>
+                <outlet property="labelAmount" destination="XUF-8u-NTj" id="IGP-5W-Tse"/>
+                <outlet property="labelDate" destination="8uO-jT-HPB" id="cNv-1u-oqJ"/>
+            </connections>
+            <point key="canvasLocation" x="51" y="68"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="send" width="32" height="32"/>
+    </resources>
+</document>

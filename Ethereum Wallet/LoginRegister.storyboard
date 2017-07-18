@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Register View Controller-->
+        <scene sceneID="Rej-MZ-9sw">
+            <objects>
+                <viewController storyboardIdentifier="RegisterViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="XOl-mW-V7n" customClass="RegisterViewController" customModule="Ethereum_Wallet" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Zyi-KJ-ER1"/>
+                        <viewControllerLayoutGuide type="bottom" id="Om3-eE-R2W"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GSu-ac-ECW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pattern_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="7zz-t2-lkX">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="uuO-Yk-j7A">
+                                <rect key="frame" x="40" y="165" width="240" height="150"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JJ1-bm-kr1">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="namePhonePad"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rHr-v8-OvR">
+                                        <rect key="frame" x="0.0" y="40" width="240" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6x2-eG-FDM">
+                                        <rect key="frame" x="0.0" y="80" width="240" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="y5n-SA-NUT">
+                                        <rect key="frame" x="0.0" y="120" width="240" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="IrZ-Ls-4h8"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IaO-aV-P5f">
+                                <rect key="frame" x="101.5" y="340" width="117" height="37"/>
+                                <color key="backgroundColor" red="0.50588235290000005" green="0.76470588240000004" blue="0.63137254899999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <inset key="contentEdgeInsets" minX="25" minY="8" maxX="25" maxY="8"/>
+                                <state key="normal" title="Register">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="actionSubmit:" destination="XOl-mW-V7n" eventType="touchUpInside" id="ZtO-6f-2XN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S3B-aa-0nE">
+                                <rect key="frame" x="50.5" y="430" width="219" height="36"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                <state key="normal" title="New user? Register here">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="actionAlter:" destination="XOl-mW-V7n" eventType="touchUpInside" id="2r0-2s-CWf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ethereum Wallet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4iU-Y6-P7z">
+                                <rect key="frame" x="52" y="55" width="217" height="28"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7zz-t2-lkX" firstAttribute="leading" secondItem="GSu-ac-ECW" secondAttribute="leading" id="1Rb-rk-O9U"/>
+                            <constraint firstItem="uuO-Yk-j7A" firstAttribute="centerY" secondItem="GSu-ac-ECW" secondAttribute="centerY" id="BJ4-kZ-czK"/>
+                            <constraint firstItem="S3B-aa-0nE" firstAttribute="centerX" secondItem="GSu-ac-ECW" secondAttribute="centerX" id="Ctg-hM-Rcf"/>
+                            <constraint firstItem="7zz-t2-lkX" firstAttribute="bottom" secondItem="Om3-eE-R2W" secondAttribute="top" id="EmG-Be-06e"/>
+                            <constraint firstItem="7zz-t2-lkX" firstAttribute="top" secondItem="GSu-ac-ECW" secondAttribute="top" id="Mek-XX-vCq"/>
+                            <constraint firstItem="IaO-aV-P5f" firstAttribute="top" secondItem="uuO-Yk-j7A" secondAttribute="bottom" constant="25" id="X0c-ij-ybJ"/>
+                            <constraint firstItem="4iU-Y6-P7z" firstAttribute="centerX" secondItem="GSu-ac-ECW" secondAttribute="centerX" id="XQ0-UL-xum"/>
+                            <constraint firstItem="IaO-aV-P5f" firstAttribute="centerX" secondItem="uuO-Yk-j7A" secondAttribute="centerX" id="fCX-BM-7SU"/>
+                            <constraint firstItem="4iU-Y6-P7z" firstAttribute="top" secondItem="Zyi-KJ-ER1" secondAttribute="bottom" constant="20" id="jfp-la-7p3">
+                                <variation key="heightClass=regular" constant="35"/>
+                            </constraint>
+                            <constraint firstItem="S3B-aa-0nE" firstAttribute="top" secondItem="7zz-t2-lkX" secondAttribute="bottom" constant="-50" id="q9D-kP-fA8"/>
+                            <constraint firstAttribute="trailing" secondItem="7zz-t2-lkX" secondAttribute="trailing" id="sSb-mD-yQO"/>
+                            <constraint firstItem="uuO-Yk-j7A" firstAttribute="centerX" secondItem="GSu-ac-ECW" secondAttribute="centerX" id="wQ7-ag-BqC"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buttonAlter" destination="S3B-aa-0nE" id="V9E-I3-VOv"/>
+                        <outlet property="buttonSubmit" destination="IaO-aV-P5f" id="nxW-If-S1O"/>
+                        <outlet property="ipEmail" destination="rHr-v8-OvR" id="sUR-zk-qAG"/>
+                        <outlet property="ipName" destination="JJ1-bm-kr1" id="Ap0-Ax-x8b"/>
+                        <outlet property="ipPasswd" destination="6x2-eG-FDM" id="CON-EV-7pE"/>
+                        <outlet property="ipPhone" destination="y5n-SA-NUT" id="BrY-nt-6DX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lbv-eb-ozS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="541.875" y="-155"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pattern_1.png" width="1536" height="1536"/>
+    </resources>
+    <color key="tintColor" red="0.50588235290000005" green="0.76470588240000004" blue="0.63137254899999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</document>
